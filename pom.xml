@@ -6,7 +6,10 @@
     <groupId>com.gumingyu</groupId>
     <artifactId>gmy-finance</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>common</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>gmy-finance</name>
     <description>gmy finance record</description>
@@ -15,7 +18,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <properties>
